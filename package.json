@@ -1,0 +1,31 @@
+{
+	"name": "ck2",
+	"displayName": "Crusader Kings II",
+	"description": "Adds syntax highlighting for Crusader Kings II mod files.",
+	"version": "0.1.0",
+	"publisher": "n1nja",
+	"licenseUrl": "COPYING",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "ck2",
+				"aliases": ["Crusader Kings II", "ck2"],
+				"extensions": [".ck2.txt"],
+				"configuration": "./ck2.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "ck2",
+				"scopeName": "source.ck2",
+				"path": "./syntaxes/ck2.tmLanguage"
+			}
+		]
+	}
+}
