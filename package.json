@@ -4,7 +4,18 @@
 	"description": "Adds syntax highlighting for Crusader Kings II mod files.",
 	"version": "0.1.0",
 	"publisher": "n1nja",
-	"licenseUrl": "COPYING",
+	"license": "LGPLv3",
+	"licenseUrl": "LICENSE.txt",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dgn1nja/ck2.git"
+	},
+	"icon": "icon.png",
+	"iconUrl": "ck2-icon.png",
+	"galleryBanner": {
+		"color": "#66023C",
+		"theme": "light"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
