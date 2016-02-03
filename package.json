@@ -14,7 +14,7 @@
 	"iconUrl": "ck2-icon.png",
 	"galleryBanner": {
 		"color": "#66023C",
-		"theme": "light"
+		"theme": "dark"
 	},
 	"engines": {
 		"vscode": "^0.10.1"
