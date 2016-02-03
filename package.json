@@ -2,7 +2,7 @@
 	"name": "ck2",
 	"displayName": "Crusader Kings II",
 	"description": "Adds syntax highlighting for Crusader Kings II mod files.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "n1nja",
 	"license": "LGPLv3",
 	"licenseUrl": "LICENSE.txt",
