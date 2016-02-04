@@ -25,17 +25,28 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "ck2",
-				"aliases": ["Crusader Kings II", "ck2"],
+				"id": "ck2.txt",
+				"aliases": ["Crusader Kings II Text", "ck2"],
 				"extensions": [".ck2.txt"],
-				"configuration": "./ck2.configuration.json"
+				"configuration": "./ck2.txt.configuration.json"
+			},
+			{
+				"id": "ck2.mod",
+				"aliases": ["Crusader Kings II Mod", "mod"],
+				"extensions": [".ck2.mod"],
+				"configuration": "./ck2.mod.configuration.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "ck2",
-				"scopeName": "source.ck2",
-				"path": "./syntaxes/ck2.tmLanguage"
+				"language": "ck2.txt",
+				"scopeName": "source.ck2.txt",
+				"path": "./syntaxes/ck2.txt.tmLanguage"
+			},
+			{
+				"language": "ck2.mod",
+				"scopeName": "source.ck2.mod",
+				"path": "./syntaxes/ck2.mod.tmLanguage"
 			}
 		]
 	}
