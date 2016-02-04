@@ -1,8 +1,8 @@
 {
 	"name": "ck2",
 	"displayName": "Crusader Kings II",
-	"description": "Adds syntax highlighting for Crusader Kings II mod files.",
-	"version": "0.1.1",
+	"description": "Adds syntax highlighting for Crusader Kings II files.",
+	"version": "0.2.0",
 	"publisher": "n1nja",
 	"license": "LGPLv3",
 	"licenseUrl": "LICENSE.txt",
@@ -26,13 +26,13 @@
 		"languages": [
 			{
 				"id": "ck2.txt",
-				"aliases": ["Crusader Kings II Text", "ck2"],
+				"aliases": ["Crusader Kings II Text"],
 				"extensions": [".ck2.txt"],
 				"configuration": "./ck2.txt.configuration.json"
 			},
 			{
 				"id": "ck2.mod",
-				"aliases": ["Crusader Kings II Mod", "mod"],
+				"aliases": ["Crusader Kings II Mod"],
 				"extensions": [".ck2.mod"],
 				"configuration": "./ck2.mod.configuration.json"
 			}
