@@ -2,13 +2,13 @@
 	"name": "ck2",
 	"displayName": "Crusader Kings II",
 	"description": "Adds syntax highlighting for Crusader Kings II files.",
-	"version": "0.2.0",
+	"version": "0.3.0-dev",
 	"publisher": "n1nja",
-	"license": "LGPLv3",
+	"license": "GPL-3.0",
 	"licenseUrl": "LICENSE.txt",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dgn1nja/ck2.git"
+		"url": "https://github.com/colin-haber/ck2.git"
 	},
 	"icon": "icon.png",
 	"iconUrl": "ck2-icon.png",
@@ -17,37 +17,9 @@
 		"theme": "dark"
 	},
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "^1.10.1"
 	},
 	"categories": [
 		"Languages"
-	],
-	"contributes": {
-		"languages": [
-			{
-				"id": "ck2.txt",
-				"aliases": ["Crusader Kings II Text"],
-				"extensions": [".ck2.txt"],
-				"configuration": "./ck2.txt.configuration.json"
-			},
-			{
-				"id": "ck2.mod",
-				"aliases": ["Crusader Kings II Mod"],
-				"extensions": [".ck2.mod"],
-				"configuration": "./ck2.mod.configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "ck2.txt",
-				"scopeName": "source.ck2.txt",
-				"path": "./syntaxes/ck2.txt.tmLanguage"
-			},
-			{
-				"language": "ck2.mod",
-				"scopeName": "source.ck2.mod",
-				"path": "./syntaxes/ck2.mod.tmLanguage"
-			}
-		]
-	}
+	]
 }
